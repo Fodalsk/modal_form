@@ -48,11 +48,8 @@ html,body{
 	border-radius: 3%;
 	background-color: white;
 	max-width: 400px;
-	padding: 40px 2%;
-	height: 40%;
-	min-height: 380px;
-	max-height: 500px;
-	width: 94%;
+	padding: 80px 2%;
+	width: calc(94% - 32px);
 }
 
 .form input[type=text]{
@@ -60,6 +57,7 @@ html,body{
 	height: 48px;
 	line-height: 48px;
 	padding-left: 8px;
+	color: #363636;
 	border: 1px solid #ccc;
 	margin-bottom: 20px;
 }
